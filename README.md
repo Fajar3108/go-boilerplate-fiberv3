@@ -18,6 +18,8 @@ JWT_SECRET_KEY=your_very_secure_jwt_secret_key
 JWT_EXPIRATION_HOURS=24
 JWT_REFRESH_EXPIRATION_DAYS=14
 
+REDIS_URL=""
+
 # Neon PostgreSQL connection string (or local postgres database URL)
 DATABASE_URL="postgresql://username:password@host:port/database?sslmode=require"
 
